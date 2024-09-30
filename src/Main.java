@@ -12,7 +12,8 @@ public class Main
         if(console.hasNextInt()) {
             birthMonth = console.nextInt();
             console.nextLine(); // clear the buffer
-            if (birthMonth >= 1 && birthMonth <= 12) ;
+
+            if (birthMonth >= 1 && birthMonth <= 12)
             {
                 System.out.println("you said your birth month is: " + birthMonth);
             }
